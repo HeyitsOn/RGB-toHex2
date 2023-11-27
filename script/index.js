@@ -15,9 +15,7 @@ function Hex() {
     const blue = document.getElementById("blue").value;
 
     const hexColor = rgbToHex(red, green, blue);
-    document.getElementById("hex").textContent = hexColor.toUpperCase();
-    document.body.style.backgroundColor = `#${hexColor}`;
-}
+    document.getElementById("hex").textContent = hexColor.toUpperCase();g}
 
 function rgbToHex(red, green, blue) {
     const redHex = ('0' + Number(red).toString(16)).slice(-2);
